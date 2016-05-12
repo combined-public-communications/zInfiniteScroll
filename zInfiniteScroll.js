@@ -53,11 +53,14 @@
                     // if we have reached the threshold and we scroll up
                     if (scrolled < lengthThreshold && (scrolled - lastScrolled) < 0 && (element.scrollHeight >= element.clientHeight)) {
                         var originalHeight = element.scrollHeight;
-                        $scope.$apply(handler).then(function() {
-                            $timeout(function() {
-                                element.scrollTop = element.scrollHeight - originalHeight;
+                        var handlerCallback = $scope.$apply(handler);
+                        if (handlerCallback && typeof handlerCallback.then === 'function') {
+                            handlerCallback.then(function() {
+                                $timeout(function() {
+                                    element.scrollTop = element.scrollHeight - originalHeight;
+                                });
                             });
-                        });
+                        }
                     }
                     lastScrolled = scrolled;
                 }

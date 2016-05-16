@@ -9,9 +9,11 @@ zInfiniteScroll was forked from lrInfiniteScroll, but more functionality and bro
 ## Installation
 
 Using bower
+
     bower install zInfiniteScroll
     
 Using npm
+
     npm install angular-zinfinitescroll
 
 ## Demo

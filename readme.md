@@ -6,6 +6,14 @@ It is very light and optimized to reduce the amount of $digest loop.
 
 zInfiniteScroll was forked from lrInfiniteScroll, but more functionality and browser compatibility even on mobile.
 
+## Installation
+
+Using bower
+    bower install zInfiniteScroll
+    
+Using npm
+    npm install angular-zinfinitescroll
+
 ## Demo
 [Body scroll down](http://lightzam.github.io/zInfiniteScroll/example01_bodyScroll.html)
 

@@ -14,7 +14,7 @@ Using bower
     
 Using npm
 
-    npm install angular-zinfinitescroll
+    npm install zinfinitescroll
 
 ## Demo
 [Body scroll down](http://lightzam.github.io/zInfiniteScroll/example01_bodyScroll.html)

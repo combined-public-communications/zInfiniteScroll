@@ -1,0 +1,29 @@
+{
+  "name": "zinfinitescroll",
+  "version": "1.1.4",
+  "description": "angular directive to handle element scroll",
+  "main": "zInfiniteScroll.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightZam/zInfiniteScroll.git"
+  },
+  "keywords": [
+    "angular",
+    "infinite",
+    "scroll",
+    "inverse",
+    "mobile"
+  ],
+  "author": "lightzam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightZam/zInfiniteScroll/issues"
+  },
+  "homepage": "https://github.com/LightZam/zInfiniteScroll#readme"
+}

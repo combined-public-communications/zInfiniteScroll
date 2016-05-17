@@ -2,7 +2,7 @@ Package.describe({
     name: "lightzam:z-infinite-scroll",
     summary: "angular directive to handle element scroll",
     description: "angular directive to handle element scroll",
-    version: "1.1.3",
+    version: "1.1.4",
     git: "https://github.com/LightZam/zInfiniteScroll.git"
 });
 
